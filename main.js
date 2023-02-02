@@ -8,7 +8,4 @@ const sum = (n1, n2) => {
   return n1 + n2;
 };
 
-(() => {
-  // calls the sum function with 2 and 3 as parameters
-  console.log(sum(2, 3));
-})();
+module.exports = { sum };
